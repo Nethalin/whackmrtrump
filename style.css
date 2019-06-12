@@ -12,7 +12,7 @@ html{
     box-sizing: inherit;
 }
 body {
-    background-color:red;
+    background:url("./mexico.jpg") repeat;
     padding: 0;
     margin: 0;
     font-family: 'Amatic SC', cursive;
@@ -75,4 +75,4 @@ height: 50%;
     top:0;
     visibility: visible
 }
-* {cursor: url(http://cur.cursors-4u.net/others/oth-5/oth435.cur), auto !important;} 
+ * {cursor: url(http://cur.cursors-4u.net/others/oth-4/oth338.cur), auto !important;}
