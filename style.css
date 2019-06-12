@@ -1,0 +1,78 @@
+html{
+    box-sizing:border-box;
+    font-size: 10px;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.start{
+    position: absolute
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color:red;
+    padding: 0;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+}
+h1 {
+    text-align:center;
+    font-size: 10rem;
+    line-height:1;
+    margin-bottom: 0;
+}
+.score{
+    background:rgba(255,255,255,0.2);
+    padding:0 3rem;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* .top{
+display:flex;
+
+
+}
+.middle{
+display:flex;
+
+}
+
+.bottom{
+display:flex;
+
+} */
+
+.hole {
+    height:300px;
+    width: 300px;
+}
+
+img {
+    width: 500px;
+}
+
+.mole{
+background:url("donald.png") bottom center no-repeat;
+background-size: 50%;
+background-position:bottom;
+position: relative;
+top:60%;
+width: auto;
+height: 50%;
+/* z-index: 10; */
+ transition: all 0.4s;
+ visibility: hidden; 
+
+}
+
+.hole.up .mole{
+    top:0;
+    visibility: visible
+}
+* {cursor: url(http://cur.cursors-4u.net/others/oth-5/oth435.cur), auto !important;} 
