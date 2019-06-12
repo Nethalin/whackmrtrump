@@ -58,7 +58,7 @@ img {
 }
 
 .mole{
-background:url("donald.png") bottom center no-repeat;
+background:url("./donald.png") bottom center no-repeat;
 background-size: 50%;
 background-position:bottom;
 position: relative;
