@@ -45,7 +45,6 @@ function bonk(e) {
     score++;
     console.log(e);
     this.classList.remove("up");
-    this.classList.style.visibility = "hidden";
     scoreBoard.textContent = score;
 }
 
